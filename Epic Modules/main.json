@@ -1,0 +1,20 @@
+{
+	"id": "40b36614-d038-4017-b20e-5887d8b32e92",
+	"title": "Modules+",
+	"description": "A group of modules that expand on the default ones.",
+	"author": "Bryce Reynolds",
+	"repository": "not yet determined",
+	"modules": [
+		{
+			"id": "f2d0c9cf-00f2-4d9e-b404-3d5e7949d93a",
+			"name": "trafficplus",
+			"title": "Traffic+",
+			"description": "More control, as well as more human-like behaviour.",
+			"icon": "fa-code",
+			"version": "0.1.1"
+			"versionRequired": "0.2.900",
+			"status": "online",
+			"webview": true,
+		}
+	]
+}
