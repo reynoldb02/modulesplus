@@ -15,6 +15,6 @@
 			"versionRequired": "0.2.900",
 			"status": "online",
 			"webview": true,
-		}
+		},
 	]
 }
