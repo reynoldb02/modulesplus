@@ -10,7 +10,7 @@
 			"name": "trafficplus",
 			"title": "Traffic+",
 			"description": "More control, as well as more human-like behaviour.",
-			"icon": "fa-code",
+			"icon": "fa-plus-circle",
 			"version": "0.1.1",
 			"versionRequired": "0.2.900",
 			"status": "online",
