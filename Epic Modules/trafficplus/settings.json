@@ -1,5 +1,8 @@
 {
   "fields": [
-
+	{
+      "name": "myText",
+      "required": true
+    }
   ]
 }
