@@ -13,20 +13,14 @@ async function main(mod) {
     counter = 0;
   });
 
-  if (counter < 3) {
-    // Wait between 1 and 2 seconds.
-    await somiibo.wait(1000, 2000);
-    counter++;
-    somiibo.loop(main);
 	somiibo.alert({
   type: 'success', // 'success', 'warning', 'danger', 'info',
   title: 'Hello, World!',
-  content: '<h1>Greetings</h1> <br> This is my message.',
+  content: somiibo.getSetting('myText'),
   button: 'Goodbye',
 });
-  } else {
     somiibo.stop();
-  }
+  
 }
 
 module.exports = main;
